@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dispensary药房</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="swiper-5.3.6/package/css/swiper.min.css">
+  <style>
+    .swiper-container {
+      width: 100%;
+      height: 150px;
+    }
+
+    .swiper-slide {
+      width: 100%;
+      height: 150px;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 顶部标题 -->
+  <div class="headerBox">
+    <a href="./index.html" class="">
+      <div class="div1">西安鸿君堂大药房有限公司</div>
+    </a>
+    <a href="./threenav.html">
+      <div class="div2"><img src="./images/threenav.png" alt=""></div>
+    </a>
+  </div>
+  <!-- 轮播图 -->
+  <div class="loop">
+    <div class="swiper-container">
+      <!-- 图片 -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/loop01诚信.jpg" alt="">
+        </div>
+        <div class="swiper-slide"> <img src="./images/loop02做真品.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="./images/loop03创新.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="./images/loop04关爱健康.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="./images/loop05源于自然.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="./images/loop06健康文化.jpg" alt=""></div>
+      </div>
+      <!-- 小点 -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-- 导航栏 -->
+  <div class="nav">
+    <ul>
+      <a href="./index.html">
+        <li><img src="./images/Navigation01.png" alt=""></li>
+        <div class="nav_">
+          <p>首页</p>
+        </div>
+      </a>
+      <a href="./nav_company.html">
+        <li><img src="./images/Navigation02.png" alt=""></li>
+        <div class="nav_">
+          <p>公司概况</p>
+        </div>
+      </a>
+      <a href="./nav_news.html">
+        <li><img src="./images/Navigation03.png" alt=""></li>
+        <div class="nav_">
+          <p>新闻资讯</p>
+        </div>
+      </a>
+      <a href="./nav_product.html" class="Edge">
+        <li><img src="./images/Navigation04.png" alt=""></li>
+        <div class="nav_">
+          <p>公司产品</p>
+        </div>
+      </a>
+      <a href="./nav_online.html">
+        <li><img src="./images/Navigation05.png" alt=""></li>
+        <div class="nav_">
+          <p>在线客服</p>
+        </div>
+      </a>
+      <a href="./nav_me.html">
+        <li><img src="./images/Navigation06.png" alt=""></li>
+        <div class="nav_">
+          <p>联系我们</p>
+        </div>
+      </a>
+      <a href="./nav_Message.html">
+        <li><img src="./images/Navigation07.png" alt=""></li>
+        <div class="nav_">
+          <p>留言板</p>
+        </div>
+      </a>
+      <a href="./nav_logo.html" class="Edge">
+        <li><img src="./images/Navigation08.png" alt=""></li>
+        <div class="nav_">
+          <p>会员登录</p>
+        </div>
+      </a>
+    </ul>
+  </div>
+  <!-- 搜索框 -->
+  <div class="form">
+    <div class="form_Content">
+      <div class="Search">
+        <input type="Search" placeholder="桂龙药膏">
+        <li><img src="./images/form_maglass.png" alt=""></li>
+      </div>
+    </div>
+  </div>
+  <!-- 产品信息 -->
+  <div class="product">
+    <div class="product_top"><p>产品展示</p></div>
+    <div class="Straight"></div>
+  </div>
+
+  <!-- 底部 -->
+
+
+</body>
+<script src="./swiper-5.3.6/swiper-5.3.6/package/js/swiper.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    autoplay: true,
+    direction: 'horizontal',
+    speed: 1000,
+  });
+</script>
+
+</html>
